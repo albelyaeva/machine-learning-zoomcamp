@@ -5,7 +5,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 
-url = '/Users/aleksandra/PycharmProjects/machine-learning-zoomcamp/course_lead_scoring.csv'
+url = './course_lead_scoring.csv'
 df = pd.read_csv(url)
 
 print("Missing values before:")
